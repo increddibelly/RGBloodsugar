@@ -12,11 +12,13 @@ for this tool to do anything useful, you...
 
 *usage:*
 
-build the project, stick the binaries in a folder. Run the executable from the command prompt and pass the Nightscout url as the command line parameter.
+build the project, stick the binaries in a folder.
+copy the LogitechLedEnginesWrapper.dll file into that same folder.
+Run the executable from the command prompt and pass the Nightscout url as the command line parameter.
 e.g. LogitechLedScout.exe http://www.github.com
 the example will fail, since it's not a Nightscout site, but I'm sure you'll get the general idea.
 
-It's even easier to set this up by creating a shortcut to the executable and adding the url to the command line field in the shortcut.
+It's even more convenient to create a shortcut to the executable and add the url to the command line parameters field in the shortcut.
 
 *effects:*
 
